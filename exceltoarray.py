@@ -1,10 +1,9 @@
 from pathlib import Path
-from pandas import read_excel
 from openpyxl import load_workbook
 
 my_path = Path('C:/Users/Elena.Lashkova/Downloads/australia-unemployment-rate.xlsx')
 
-# my_dataframe = read_excel(my_path,index_col=0)
+
 
 wb = load_workbook(filename=my_path)
 
